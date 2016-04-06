@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html ng-app="demo-app">
+<head>
+	<title>Ot Files Manager demo</title>
+	<link rel="stylesheet" type="text/css" href="../bower_components/bootstrap/dist/css/bootstrap.min.css">
+</head>
+<body ng-controller="mainCtrl">
+	<div class="container">
+		<h1>Example</h1>
+		<ot-files config="config"></ot-files>		
+	</div>
+	<input type="text" class="form-control" ng-model="config.search.label" required="required">
+<script src="../bower_components/angular/angular.min.js"></script>
+<script src="app.js"></script>
+<script src="../build/ot-files-directive-release.js"></script>	
+</body>
+</html>
