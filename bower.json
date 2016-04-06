@@ -4,7 +4,7 @@
     "Cezar Vinícius de O. Pretto <cezar@planosassessoria.com.br>"
   ],
   "description": "",
-  "main": "",
+  "main": "build/ot-files-directive-release.js",
   "moduleType": [],
   "license": "MIT",
   "homepage": "",
